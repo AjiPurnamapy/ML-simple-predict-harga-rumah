@@ -1,8 +1,8 @@
-import numpy as np     # standart industri untuk manipulasi array numerik yang efisien
-from sklearn.linear_model import LinearRegression  # algoritma linear regressiondari scikit-lear
-import joblib   # library standar untuk menyimpan (serialize) objek python/model ke file
+    import numpy as np     # standart industri untuk manipulasi array numerik yang efisien
+    from sklearn.linear_model import LinearRegression  # algoritma linear regressiondari scikit-lear
+    import joblib   # library standar untuk menyimpan (serialize) objek python/model ke file
 
-def main():
+    def main():
     # persiapan data (dummy)
     # di proyek nyata, data ini diambil dari database (postgresql) atau via pandas
     # X = fitur (inpput), y = target (output)
@@ -48,8 +48,8 @@ def main():
     joblib.dump(model, filename)
     print(f"MODEL DISIMPAN KE FILE '{filename}'. SIAP DIPAKAI DI FASTAPI!")
 
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
 
 DATA .reshape() akan terlihat seperti ini, data X_train harus berbentuk kolom, kenapa y_train tidak? karena itu hanya berisi deretan angka jawaban.
 [
