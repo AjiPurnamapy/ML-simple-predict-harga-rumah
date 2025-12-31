@@ -53,7 +53,6 @@
 
 DATA .reshape() akan terlihat seperti ini, data X_train harus berbentuk kolom yang menurun kebawah, kenapa y_train tidak? karena itu hanya berisi deretan angka jawaban dan tidak harus juga menurun kebawah.
 [
-<<<<<<< HEAD
 [1],
 [2],
 [3],
@@ -67,18 +66,3 @@ DATA .reshape() akan terlihat seperti ini, data X_train harus berbentuk kolom ya
 [11],
 [12],
 ]
-=======
- [1],
- [2], 
- [3],
- [4],
- [5],
- [6],
- [7],
- [8],
- [9],
- [10],
- [11],
- [12],
-]
->>>>>>> 2308dc738987891cc69061e38c640b1497bc7ae0
